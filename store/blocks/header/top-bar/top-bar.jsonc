@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#top-bar":{
+    "props":{
+      "blockClass": "wrapper__top-bar"
+    },
+    "children":[
+      "rich-text#email-text",
+      "rich-text#phone-text",
+      "rich-text#login-text",
+      "rich-text#wishlist-text",
+      "rich-text#cart-text"
+    ]
+  },
+
+  "rich-text#email-text":{
+    "props":{
+      "blockClass":["text__top-bar", "email__top-bar"],
+      "text": "![email](assets/images/email-icon.png) loremipsum@gmail.com"
+    }
+  },
+  "rich-text#phone-text":{
+    "props":{
+      "blockClass":["text__top-bar", "phone__top-bar"],
+      "text": "![phone](assets/images/phone-icon.png)+55(14)0000-0000"
+    }
+  },
+  "rich-text#login-text":{
+    "props":{
+      "blockClass":["text__top-bar", "login__top-bar"],
+      "text": "Login ![login](assets/images/people-icon.png)"
+    }
+  },
+  "rich-text#wishlist-text":{
+    "props":{
+      "blockClass":["text__top-bar", "wishlist__top-bar"],
+      "text": "Wish List ![Wish](assets/images/heart-icon.png)"
+    }
+  },
+  "rich-text#cart-text":{
+    "props":{
+      "blockClass":["text__top-bar", "cart__top-bar"],
+      "text": "![Cart](assets/images/cart-icon.png)"
+    }
+  }
+
+}
