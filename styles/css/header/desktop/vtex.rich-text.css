@@ -1,4 +1,19 @@
 .paragraph--text__top-bar{
   font-size: 16px;
   color: #f1f1f1;
+  font-family: 'JosefinSans';
 }
+.wrapper--text__top-bar{
+  margin-right: 30px;
+}
+.wrapper--text__top-bar{
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+
+.wrapper--cart__top-bar,
+.paragraph--text__top-bar{
+  margin: 0;
+}
+
