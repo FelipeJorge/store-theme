@@ -3,7 +3,9 @@
     "blocks": [
       "responsive-layout.desktop#home",
       "responsive-layout.tablet#home",
-      "responsive-layout.mobile#home"
+      "responsive-layout.mobile#home",
+      "slider-layout-group#conexao",
+      "flex-layout.row#deals"
     ]
   }
 }

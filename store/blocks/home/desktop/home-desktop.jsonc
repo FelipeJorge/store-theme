@@ -5,20 +5,22 @@
     ]
   },
 
-  "list-context.image-list#banner": {
+  "list-context.image-list#banner":{
     "children":["slider-layout#banner"],
     "props":{
-      "heigth": 764,
-      "images":[
+      "height": 764,
+      "images": [
         {
-          //desktop
-          "image":"assets/images/promotion-banner.png",
-          "mobileImage":""
+          "image":"assets/images/banner-desktop.png",
+          "mobileImage": ""
         },
         {
-          //desktop
-          "image":"assets/images/promotion-banner.png",
-          "mobileImage":""
+          "image":"assets/images/banner-desktop.png",
+          "mobileImage": ""
+        },
+        {
+          "image":"assets/images/banner-desktop.png",
+          "mobileImage": ""
         }
       ]
     }
@@ -26,14 +28,15 @@
 
   "slider-layout#banner":{
     "props":{
-      "itemPerPage":{
+      "itemsPerPage":{
         "desktop": 1,
-        "tablet":1,
-        "mobile":1
+        "tablet" : 1,
+        "phone": 1
       },
       "infinite": true,
-      "showNavigationDots": "never",
-      "showPaginationDots": "aways"
-      }
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always"
+    }
   }
+
 }

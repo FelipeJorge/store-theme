@@ -4,89 +4,123 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-vertodos",
+      "menu-item#category-vestuario",
+      "menu-item#category-acessorios",
       "menu-item#category-home",
+      "menu-item#category-papelaria",
+      "menu-item#category-gift",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-vertodos": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-vertodos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "ver todos",
+        "text": "Ver todos"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-vertodos"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-vertodos": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-vertodos"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-vertodos": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-vertodos-clothing",
+      "menu-item#category-vertodos-accessories",
+      "menu-item#category-vertodos-eyeglasses"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-vertodos-clothing": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-vertodos-clothing",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/vertodos---accessories/clothing/",
         "noFollow": false,
         "tagTitle": "Clothing",
         "text": "Clothing"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-vertodos-accessories": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-vertodos-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/vertodos---accessories/accessories/",
         "noFollow": false,
         "tagTitle": "Accessories",
         "text": "Accessories"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-vertodos-eyeglasses": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-vertodos-eyeglasses",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/vertodos---accessories/eyeglasses/",
         "noFollow": false,
         "tagTitle": "Eyeglasses",
         "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-vestuario": {
+    "props": {
+      "id": "menu-item-category-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuário"
+      }
+    }
+  },
+  "menu-item#category-acessorios": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "acessorios",
+        "text": "Accessórios"
       }
     }
   },
@@ -100,8 +134,38 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "homedecor",
+        "text": "Home Decor"
+      }
+    }
+  },
+  "menu-item#category-papelaria": {
+    "props": {
+      "id": "menu-item-category-pepelaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "papelaria",
+        "text": "Papelaria"
+      }
+    }
+  },
+  "menu-item#category-gift": {
+    "props": {
+      "id": "menu-item-category-gift",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "gift",
+        "text": "Gift"
       }
     }
   },
@@ -133,8 +197,7 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-more-1"
     ]
   },
   "flex-layout.col#menu-more-1": {
@@ -144,7 +207,6 @@
   },
   "flex-layout.col#menu-more-2": {
     "children": [
-      "info-card#home"
     ]
   },
   "vtex.menu@2.x:menu#more": {
